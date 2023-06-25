@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    gap: 1em;
+    margin: 0 1em;
+    font-size: 1em;
+    align-items: center;
+}
+.header{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(1em);
+    display: flex;
+    background: #0000002b;
+    height: 3em;
+    justify-content: space-between;
+}
+
+a.btn.navItem{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.header h1{
+    font-family: 'Hunger';
+    font-weight: 100;
+    margin: auto 1em;
+}
+.active-href{
+    box-shadow: 0px 5px 0px -4px;
+}

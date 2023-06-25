@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+  font-family: Pilot;
+  src: url("pages/Assets/PilotCommandExpanded-8MY4g.otf") format("opentype");
+}
+@font-face {
+  font-family: Hunger;
+  src: url(pages/Assets/Hunger\ Games.ttf)format("truetype");
+}
+@font-face {
+  font-family: Minecraft;
+  src: url(pages/Assets/Minecrafter.Alt.ttf)format("truetype");
+}
+@font-face {
+  font-family: PUBG;
+  src: url(pages/Assets/PUBG\ SANS.ttf)format("truetype");
+}
+@font-face {
+  font-family: Techno;
+  src: url(pages/Assets/techno_hideo.ttf)format("truetype");
+}
+@font-face {
+  font-family: TechnoBold;
+  src: url(pages/Assets/techno_hideo_bold.ttf)format("truetype");
+}
 .App {
   text-align: center;
 }
@@ -35,4 +60,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#root:before {
+  /* content: ''; */
+  background: aqua;
+  position: absolute;
+  top: -5em;
+  left: -5em;
+  height: 10em;
+  width: 10em;
+  border-radius: 5em;
+  z-index: -1;
+}
+body{
+  background: linear-gradient(122deg, #fc9595,11%, #00000042, #c4f0b3);
+}
+body::-webkit-scrollbar {
+  background: aqua;
+  width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+  background: black;
 }
